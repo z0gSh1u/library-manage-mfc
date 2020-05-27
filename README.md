@@ -110,7 +110,7 @@
 
 | **属性名/函数名/宏**                                         | **描述**                                              |
 | ------------------------------------------------------------ | ----------------------------------------------------- |
-| `  #define  _GETLISTCTRL *(((CmfcLibraryDoc*)GetDocument())->leftListCtrl);  ` | 方便地在各种View内获得  左部分的CListCtrl             |
+| `  #define  _GETLISTCTRL *(((CmfcLibraryDoc*)GetDocument())->leftListCtrl);  ` | 方便地在各种View内获得左部分的CListCtrl             |
 | `  #define  _GETLISTCTRLANYWHERE  *(((CmfcLibraryDoc*)((CMainFrame*)AfxGetApp()->m_pMainWnd)  ->GetActiveDocument())->leftListCtrl);  ` | 方便地在任何位置（包括Dialog）内获得左部分的CListCtrl |
 | `  #define  _GETDOCPTR (CmfcLibraryDoc*)GetDocument();  `    | 方便地在各种View内获得pDoc                            |
 
